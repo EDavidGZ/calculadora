@@ -1,0 +1,101 @@
+body{
+    background: black;
+}
+
+#app12 {
+   
+    background: black;
+    width:97%;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 2rem;
+
+}
+.num {
+    
+    padding-left: 11rem;
+    overflow: hidden;
+
+
+}
+input[type=textfield]{
+    height: 25vh;
+    width: 90%;
+    color: aliceblue;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    text-align: right;
+    padding: 15px;
+    border-right: 10px;
+    outline: none;
+    overflow: hidden;
+}
+.btn {
+    overflow: hidden;
+    background: rgb(255, 72, 0);
+    color: aliceblue;
+    width: 18%;
+    height: 15vh;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 100%;
+    
+}
+.btn1 {
+    background: rgb(23, 5, 222);
+    color: rgb(255, 255, 255);
+    width: 18%;
+    height: 15vh;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 7px;
+    border-radius: 100%;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .num {
+    
+    padding-left: 2rem;
+    overflow: hidden;
+
+
+}
+#app12 {
+   
+    background: black;
+    width:95%;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 2rem;
+
+}
+}
+
+@media screen and (max-width: 600px) {
+
+    .num {
+    
+    padding-left: 0rem;
+    overflow: hidden;
+
+
+}
+#app12 {
+   
+    background: black;
+    width:95%;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 2rem;
+
+}
+}
